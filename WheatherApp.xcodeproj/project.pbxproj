@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32791F8C28F7594C00A4E927 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 32791F8B28F7593C00A4E927 /* README.md */; };
+		5391805328F04C88006AB7AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391805228F04C88006AB7AD /* AppDelegate.swift */; };
+		5391805528F04C88006AB7AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391805428F04C88006AB7AD /* SceneDelegate.swift */; };
+		5391805728F04C88006AB7AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391805628F04C88006AB7AD /* ViewController.swift */; };
+		5391805A28F04C88006AB7AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5391805828F04C88006AB7AD /* Main.storyboard */; };
+		5391805C28F04C8B006AB7AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5391805B28F04C8B006AB7AD /* Assets.xcassets */; };
+		5391805F28F04C8B006AB7AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5391805D28F04C8B006AB7AD /* LaunchScreen.storyboard */; };
+		5391806E28F06391006AB7AD /* WheatherWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391806828F06391006AB7AD /* WheatherWorker.swift */; };
+		5391807528F0688E006AB7AD /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391807428F0688E006AB7AD /* NetworkClient.swift */; };
+		5391807828F0695D006AB7AD /* DataResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391807728F0695D006AB7AD /* DataResponseError.swift */; };
+		5391807C28F06FDB006AB7AD /* WheatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391807B28F06FDB006AB7AD /* WheatherResponse.swift */; };
+		5391807E28F0A977006AB7AD /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391807D28F0A977006AB7AD /* Forecast.swift */; };
+		5391808428F0AB7D006AB7AD /* WheatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391808328F0AB7D006AB7AD /* WheatherViewModel.swift */; };
+		5391808628F17D2E006AB7AD /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391808528F17D2E006AB7AD /* URLRequest.swift */; };
+		5391808828F1FDDD006AB7AD /* WheatherListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391808728F1FDDD006AB7AD /* WheatherListCell.swift */; };
+		5391808B28F20BCC006AB7AD /* String+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391808A28F20BCC006AB7AD /* String+Date.swift */; };
+		5391808E28F2FDD0006AB7AD /* Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5391808D28F2FDD0006AB7AD /* Cities.plist */; };
+		5391809028F40CB4006AB7AD /* WheatherDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391808F28F40CB4006AB7AD /* WheatherDetailsCell.swift */; };
+		5391809228F43A75006AB7AD /* WheatherDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391809128F43A75006AB7AD /* WheatherDetailsViewController.swift */; };
+		5391809B28F45EAF006AB7AD /* WheatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391809A28F45EAF006AB7AD /* WheatherAppUITests.swift */; };
+		539180A928F45EBA006AB7AD /* WheatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539180A828F45EBA006AB7AD /* WheatherAppTests.swift */; };
+		539180B328F45F4D006AB7AD /* NetworkClientSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539180B228F45F4D006AB7AD /* NetworkClientSpy.swift */; };
+		539180B528F46321006AB7AD /* WheatherWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539180B428F46321006AB7AD /* WheatherWorkerTests.swift */; };
+		539180B728F473B0006AB7AD /* WheatherViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539180B628F473B0006AB7AD /* WheatherViewModelTests.swift */; };
+		539180B928F69B96006AB7AD /* Seeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539180B828F69B95006AB7AD /* Seeds.swift */; };
+		53E2912028F6E1C10095015F /* ForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5391807F28F0AAE7006AB7AD /* ForecastViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5391809D28F45EB0006AB7AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5391804728F04C88006AB7AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5391804E28F04C88006AB7AD;
+			remoteInfo = WheatherApp;
+		};
+		539180AB28F45EBA006AB7AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5391804728F04C88006AB7AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5391804E28F04C88006AB7AD;
+			remoteInfo = WheatherApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32791F8B28F7593C00A4E927 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5391804F28F04C88006AB7AD /* WheatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5391805228F04C88006AB7AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5391805428F04C88006AB7AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5391805628F04C88006AB7AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5391805928F04C88006AB7AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5391805B28F04C8B006AB7AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5391805E28F04C8B006AB7AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5391806028F04C8B006AB7AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5391806828F06391006AB7AD /* WheatherWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherWorker.swift; sourceTree = "<group>"; };
+		5391807428F0688E006AB7AD /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		5391807728F0695D006AB7AD /* DataResponseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataResponseError.swift; sourceTree = "<group>"; };
+		5391807B28F06FDB006AB7AD /* WheatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherResponse.swift; sourceTree = "<group>"; };
+		5391807D28F0A977006AB7AD /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		5391807F28F0AAE7006AB7AD /* ForecastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewController.swift; sourceTree = "<group>"; };
+		5391808328F0AB7D006AB7AD /* WheatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherViewModel.swift; sourceTree = "<group>"; };
+		5391808528F17D2E006AB7AD /* URLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequest.swift; sourceTree = "<group>"; };
+		5391808728F1FDDD006AB7AD /* WheatherListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherListCell.swift; sourceTree = "<group>"; };
+		5391808A28F20BCC006AB7AD /* String+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Date.swift"; sourceTree = "<group>"; };
+		5391808D28F2FDD0006AB7AD /* Cities.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cities.plist; sourceTree = "<group>"; };
+		5391808F28F40CB4006AB7AD /* WheatherDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherDetailsCell.swift; sourceTree = "<group>"; };
+		5391809128F43A75006AB7AD /* WheatherDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherDetailsViewController.swift; sourceTree = "<group>"; };
+		5391809828F45EAF006AB7AD /* WheatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5391809A28F45EAF006AB7AD /* WheatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherAppUITests.swift; sourceTree = "<group>"; };
+		5391809C28F45EB0006AB7AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		539180A628F45EBA006AB7AD /* WheatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		539180A828F45EBA006AB7AD /* WheatherAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherAppTests.swift; sourceTree = "<group>"; };
+		539180AA28F45EBA006AB7AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		539180B228F45F4D006AB7AD /* NetworkClientSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClientSpy.swift; sourceTree = "<group>"; };
+		539180B428F46321006AB7AD /* WheatherWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherWorkerTests.swift; sourceTree = "<group>"; };
+		539180B628F473B0006AB7AD /* WheatherViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherViewModelTests.swift; sourceTree = "<group>"; };
+		539180B828F69B95006AB7AD /* Seeds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seeds.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5391804C28F04C88006AB7AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5391809528F45EAF006AB7AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539180A328F45EBA006AB7AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5391804628F04C88006AB7AD = {
+			isa = PBXGroup;
+			children = (
+				32791F8B28F7593C00A4E927 /* README.md */,
+				5391805128F04C88006AB7AD /* WheatherApp */,
+				5391809928F45EAF006AB7AD /* WheatherAppUITests */,
+				539180A728F45EBA006AB7AD /* WheatherAppTests */,
+				5391805028F04C88006AB7AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5391805028F04C88006AB7AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5391804F28F04C88006AB7AD /* WheatherApp.app */,
+				5391809828F45EAF006AB7AD /* WheatherAppUITests.xctest */,
+				539180A628F45EBA006AB7AD /* WheatherAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5391805128F04C88006AB7AD /* WheatherApp */ = {
+			isa = PBXGroup;
+			children = (
+				5391806628F0636F006AB7AD /* Wheather */,
+				5391808128F0AB13006AB7AD /* ViewModel */,
+				5391809328F45E56006AB7AD /* Worker */,
+				5391807628F06945006AB7AD /* Model */,
+				5391808228F0AB22006AB7AD /* View */,
+				5391807328F0685D006AB7AD /* Network */,
+				5391808928F20B98006AB7AD /* Extension */,
+				5391808C28F2FDB0006AB7AD /* Data */,
+				5391805228F04C88006AB7AD /* AppDelegate.swift */,
+				5391805428F04C88006AB7AD /* SceneDelegate.swift */,
+				5391805628F04C88006AB7AD /* ViewController.swift */,
+				5391805B28F04C8B006AB7AD /* Assets.xcassets */,
+				5391805D28F04C8B006AB7AD /* LaunchScreen.storyboard */,
+				5391806028F04C8B006AB7AD /* Info.plist */,
+			);
+			path = WheatherApp;
+			sourceTree = "<group>";
+		};
+		5391806628F0636F006AB7AD /* Wheather */ = {
+			isa = PBXGroup;
+			children = (
+				5391807F28F0AAE7006AB7AD /* ForecastViewController.swift */,
+				5391809128F43A75006AB7AD /* WheatherDetailsViewController.swift */,
+			);
+			path = Wheather;
+			sourceTree = "<group>";
+		};
+		5391807328F0685D006AB7AD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5391807428F0688E006AB7AD /* NetworkClient.swift */,
+				5391808528F17D2E006AB7AD /* URLRequest.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5391807628F06945006AB7AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5391807B28F06FDB006AB7AD /* WheatherResponse.swift */,
+				5391807D28F0A977006AB7AD /* Forecast.swift */,
+				5391807728F0695D006AB7AD /* DataResponseError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5391808128F0AB13006AB7AD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5391808328F0AB7D006AB7AD /* WheatherViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5391808228F0AB22006AB7AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5391805828F04C88006AB7AD /* Main.storyboard */,
+				5391808728F1FDDD006AB7AD /* WheatherListCell.swift */,
+				5391808F28F40CB4006AB7AD /* WheatherDetailsCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5391808928F20B98006AB7AD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5391808A28F20BCC006AB7AD /* String+Date.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5391808C28F2FDB0006AB7AD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5391808D28F2FDD0006AB7AD /* Cities.plist */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5391809328F45E56006AB7AD /* Worker */ = {
+			isa = PBXGroup;
+			children = (
+				5391806828F06391006AB7AD /* WheatherWorker.swift */,
+			);
+			path = Worker;
+			sourceTree = "<group>";
+		};
+		5391809928F45EAF006AB7AD /* WheatherAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5391809A28F45EAF006AB7AD /* WheatherAppUITests.swift */,
+				5391809C28F45EB0006AB7AD /* Info.plist */,
+			);
+			path = WheatherAppUITests;
+			sourceTree = "<group>";
+		};
+		539180A728F45EBA006AB7AD /* WheatherAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				539180B028F45F2A006AB7AD /* Wheather */,
+				539180A828F45EBA006AB7AD /* WheatherAppTests.swift */,
+				539180AA28F45EBA006AB7AD /* Info.plist */,
+			);
+			path = WheatherAppTests;
+			sourceTree = "<group>";
+		};
+		539180B028F45F2A006AB7AD /* Wheather */ = {
+			isa = PBXGroup;
+			children = (
+				539180B228F45F4D006AB7AD /* NetworkClientSpy.swift */,
+				539180B428F46321006AB7AD /* WheatherWorkerTests.swift */,
+				539180B628F473B0006AB7AD /* WheatherViewModelTests.swift */,
+				539180B828F69B95006AB7AD /* Seeds.swift */,
+			);
+			path = Wheather;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5391804E28F04C88006AB7AD /* WheatherApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5391806328F04C8B006AB7AD /* Build configuration list for PBXNativeTarget "WheatherApp" */;
+			buildPhases = (
+				5391804B28F04C88006AB7AD /* Sources */,
+				5391804C28F04C88006AB7AD /* Frameworks */,
+				5391804D28F04C88006AB7AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WheatherApp;
+			productName = WheatherApp;
+			productReference = 5391804F28F04C88006AB7AD /* WheatherApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5391809728F45EAF006AB7AD /* WheatherAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5391809F28F45EB0006AB7AD /* Build configuration list for PBXNativeTarget "WheatherAppUITests" */;
+			buildPhases = (
+				5391809428F45EAF006AB7AD /* Sources */,
+				5391809528F45EAF006AB7AD /* Frameworks */,
+				5391809628F45EAF006AB7AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5391809E28F45EB0006AB7AD /* PBXTargetDependency */,
+			);
+			name = WheatherAppUITests;
+			productName = WheatherAppUITests;
+			productReference = 5391809828F45EAF006AB7AD /* WheatherAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		539180A528F45EBA006AB7AD /* WheatherAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 539180AD28F45EBA006AB7AD /* Build configuration list for PBXNativeTarget "WheatherAppTests" */;
+			buildPhases = (
+				539180A228F45EBA006AB7AD /* Sources */,
+				539180A328F45EBA006AB7AD /* Frameworks */,
+				539180A428F45EBA006AB7AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				539180AC28F45EBA006AB7AD /* PBXTargetDependency */,
+			);
+			name = WheatherAppTests;
+			productName = WheatherAppTests;
+			productReference = 539180A628F45EBA006AB7AD /* WheatherAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5391804728F04C88006AB7AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Shital  Jadhav";
+				TargetAttributes = {
+					5391804E28F04C88006AB7AD = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					5391809728F45EAF006AB7AD = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 5391804E28F04C88006AB7AD;
+					};
+					539180A528F45EBA006AB7AD = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 5391804E28F04C88006AB7AD;
+					};
+				};
+			};
+			buildConfigurationList = 5391804A28F04C88006AB7AD /* Build configuration list for PBXProject "WheatherApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5391804628F04C88006AB7AD;
+			productRefGroup = 5391805028F04C88006AB7AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5391804E28F04C88006AB7AD /* WheatherApp */,
+				539180A528F45EBA006AB7AD /* WheatherAppTests */,
+				5391809728F45EAF006AB7AD /* WheatherAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5391804D28F04C88006AB7AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5391805F28F04C8B006AB7AD /* LaunchScreen.storyboard in Resources */,
+				5391805C28F04C8B006AB7AD /* Assets.xcassets in Resources */,
+				32791F8C28F7594C00A4E927 /* README.md in Resources */,
+				5391805A28F04C88006AB7AD /* Main.storyboard in Resources */,
+				5391808E28F2FDD0006AB7AD /* Cities.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5391809628F45EAF006AB7AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539180A428F45EBA006AB7AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5391804B28F04C88006AB7AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5391808B28F20BCC006AB7AD /* String+Date.swift in Sources */,
+				5391805728F04C88006AB7AD /* ViewController.swift in Sources */,
+				53E2912028F6E1C10095015F /* ForecastViewController.swift in Sources */,
+				5391807528F0688E006AB7AD /* NetworkClient.swift in Sources */,
+				5391809228F43A75006AB7AD /* WheatherDetailsViewController.swift in Sources */,
+				5391808628F17D2E006AB7AD /* URLRequest.swift in Sources */,
+				5391807E28F0A977006AB7AD /* Forecast.swift in Sources */,
+				5391805328F04C88006AB7AD /* AppDelegate.swift in Sources */,
+				5391808428F0AB7D006AB7AD /* WheatherViewModel.swift in Sources */,
+				5391807828F0695D006AB7AD /* DataResponseError.swift in Sources */,
+				5391806E28F06391006AB7AD /* WheatherWorker.swift in Sources */,
+				5391807C28F06FDB006AB7AD /* WheatherResponse.swift in Sources */,
+				5391808828F1FDDD006AB7AD /* WheatherListCell.swift in Sources */,
+				5391809028F40CB4006AB7AD /* WheatherDetailsCell.swift in Sources */,
+				5391805528F04C88006AB7AD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5391809428F45EAF006AB7AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5391809B28F45EAF006AB7AD /* WheatherAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539180A228F45EBA006AB7AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539180B528F46321006AB7AD /* WheatherWorkerTests.swift in Sources */,
+				539180A928F45EBA006AB7AD /* WheatherAppTests.swift in Sources */,
+				539180B728F473B0006AB7AD /* WheatherViewModelTests.swift in Sources */,
+				539180B328F45F4D006AB7AD /* NetworkClientSpy.swift in Sources */,
+				539180B928F69B96006AB7AD /* Seeds.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5391809E28F45EB0006AB7AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5391804E28F04C88006AB7AD /* WheatherApp */;
+			targetProxy = 5391809D28F45EB0006AB7AD /* PBXContainerItemProxy */;
+		};
+		539180AC28F45EBA006AB7AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5391804E28F04C88006AB7AD /* WheatherApp */;
+			targetProxy = 539180AB28F45EBA006AB7AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5391805828F04C88006AB7AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5391805928F04C88006AB7AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5391805D28F04C8B006AB7AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5391805E28F04C8B006AB7AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5391806128F04C8B006AB7AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5391806228F04C8B006AB7AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5391806428F04C8B006AB7AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WheatherApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..WheatherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5391806528F04C8B006AB7AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WheatherApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..WheatherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		539180A028F45EB0006AB7AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WheatherAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..WheatherAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WheatherApp;
+			};
+			name = Debug;
+		};
+		539180A128F45EB0006AB7AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WheatherAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..WheatherAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WheatherApp;
+			};
+			name = Release;
+		};
+		539180AE28F45EBA006AB7AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WheatherAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..WheatherAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WheatherApp.app/WheatherApp";
+			};
+			name = Debug;
+		};
+		539180AF28F45EBA006AB7AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WheatherAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..WheatherAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WheatherApp.app/WheatherApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5391804A28F04C88006AB7AD /* Build configuration list for PBXProject "WheatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5391806128F04C8B006AB7AD /* Debug */,
+				5391806228F04C8B006AB7AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5391806328F04C8B006AB7AD /* Build configuration list for PBXNativeTarget "WheatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5391806428F04C8B006AB7AD /* Debug */,
+				5391806528F04C8B006AB7AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5391809F28F45EB0006AB7AD /* Build configuration list for PBXNativeTarget "WheatherAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				539180A028F45EB0006AB7AD /* Debug */,
+				539180A128F45EB0006AB7AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		539180AD28F45EBA006AB7AD /* Build configuration list for PBXNativeTarget "WheatherAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				539180AE28F45EBA006AB7AD /* Debug */,
+				539180AF28F45EBA006AB7AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5391804728F04C88006AB7AD /* Project object */;
+}
